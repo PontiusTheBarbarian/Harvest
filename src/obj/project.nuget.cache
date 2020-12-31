@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Y8YVw7DbgD6gjaxJM9TVrX4Sku2zy9imvwgRElim9640IXUvp9T8ZnTftdLLLMKxyb2fYesf0ezt0OADrBBqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\liama\\git\\Harvest\\Harvest.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\liama\\.nuget\\packages\\farmer\\1.3.0\\farmer.1.3.0.nupkg.sha512",
+    "C:\\Users\\liama\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\liama\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\liama\\.nuget\\packages\\yamldotnet\\9.1.0\\yamldotnet.9.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

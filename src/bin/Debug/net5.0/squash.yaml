@@ -1,0 +1,7 @@
+﻿deployment:
+  name: 'azuredeploy'
+  location: 'UKSouth'
+  resources:
+  - name: 'differnt-thing'
+    resource_type: 'WebApplication'
+    runtime_stack: 'netcoreapp3.1'
