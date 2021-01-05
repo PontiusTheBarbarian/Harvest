@@ -13,8 +13,6 @@ type Resource() =
     member val ResourceType  = "" with get,set
     [<YamlMember(Alias = "runtime_stack")>]
     member val RunTimeStack    = "" with get,set
-    [<YamlMember(Alias = "app_insights_name")>]
-    member val ApplicationInsightsName    = "" with get,set
 
 type Deployment() =
     [<YamlMember(Alias = "name")>]
@@ -47,7 +45,6 @@ let main argv =
             webApp {
                 name w.Name
                 runtime_stack runtimeStack
-                app_insights_name w.ApplicationInsightsName
             })
         |> List.ofSeq
 
